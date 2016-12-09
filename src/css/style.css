@@ -1,0 +1,141 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747784;
+	font-size: 2.0em; !important;
+	font-weight: 400;
+	padding-top: 0px;
+	overflow-x: hidden;
+}
+
+.header-area {
+	background-color: #990099;
+	color: #e6e6e6;
+}
+
+.header-logo {
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 20px;
+	float: left;
+}
+
+.header-language {
+	max-height: 100px;
+	margin-left: 110px;
+	margin-top: 80px;
+	vertical-align: bottom;
+}
+
+.header-title {
+	font-size: 60px;
+}
+
+thead {
+  background-color: #990099 !important;
+	color: #e6e6e6;
+}
+
+.table-origine {
+	color: black !important;
+	font-weight: bold;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.img-responsive {
+  margin: 15px auto;
+}
+
+.row {
+		margin-right: 0px;
+    margin-left: 0px;
+}
+
+#footer {
+	background-color: #e6e6e6;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font-size: 0.8em;
+	color: #747784;
+}
+
+.controlPaddingMargin {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.controlBackground {
+		background-color: #F4ECF7;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+@media only screen and (max-width: 991px) {
+	body {
+		font-size: 1.8em; !important;
+	}
+	.header-area {
+		background-color: #BF5FFF;
+		color: black;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 1.5em; !important;
+	}
+	.header-area {
+		background-color: #660198;
+		color: #e6e6e6;
+	}
+	.controlPaddingMargin {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	body {
+		font-size: 1.2em; !important;
+	}
+	tbody, thead {
+		font-weight: 300; !important;
+		font-size: 0.8em; !important;
+	}
+	.header-logo {
+		max-width: 100px;
+	}
+	.header-title {
+		font-size: 50px;
+	}
+	.header-area {
+		background-color: #E33638;
+		color: #e6e6e6;
+	}
+}
+
+.dBlock-green {
+	background-color: green;
+	height: 300px;
+	width: 100%;
+	color: #e6e6e6;
+	padding-top: 15px;
+}
+
+#container-cloud {
+	background-color: #012754;
+}
